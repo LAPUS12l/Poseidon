@@ -1,0 +1,7 @@
+PRINT "Hello world"
+DEF Name = "JOHN"
+IF {Name} | == | "JOHN"{
+	PRINT "YOUR NAME IS JOHN"
+	INPUT Age < "WHAT IS YOUR AGE : "
+	PRINT "YOUR AGE IS "+{Age}
+}
